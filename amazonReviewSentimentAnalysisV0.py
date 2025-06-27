@@ -1,7 +1,3 @@
-import sys
-sys.path.append("//Users//shizhefu0//Desktop//ml//code//github_jeffjeff4")
-print(sys.path)
-import pandasHelperV0 as pdh
 
 from pandas.core.common import random_state
 from sklearn.ensemble import RandomForestRegressor

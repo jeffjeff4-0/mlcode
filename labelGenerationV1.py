@@ -1,11 +1,3 @@
-##python, generate a df,
-##1) with 100 samples,
-##2) each sample has 6 columns, they are user_id, item_id, is_viewed, is_clicked, is_bought, time_stamp.
-##3）user_id, item_id are randome id, could be duplicated
-##4) is_viewed, is_clicked, is_bought are randomly generated, value either be 0 or 1
-##5) generate a new column, named 'label'. its value = p0 * df['is_viewed'] + p1 * df['is_clicked'] + (1-p0-p1) * df[' is_bought']
-##6) group by user_id, sort by time stamp
-
 
 import pandas as pd
 import numpy as np

@@ -72,7 +72,7 @@ class LinearRegression():
 def main():
     # Importing dataset
 
-    df = pd.read_csv("//Users//shizhefu0//Desktop//ml//data//Dataset-main//Salary Data.csv")
+    df = pd.read_csv("//ml//data//Dataset-main//Salary Data.csv")
 
     X = df.iloc[:, :-1].values
 
